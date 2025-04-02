@@ -1,0 +1,129 @@
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1546    1414    1546      12604  pty0      197609 11:51:49 /usr/bin/ps
+     1413       1    1413       3368  ?         197609 11:35:10 /usr/bin/mintty
+     1414    1413    1414       8052  pty0      197609 11:35:10 /usr/bin/bash
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ man ls
+bash: man: command not found
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ man
+bash: man: command not found
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ cat rename.txt | grep "Hi"
+Hi revature
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ cat rename.txt | grep "hi"
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ echo "Good morning to all"
+Good morning to all
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ wget
+SYSTEM_WGETRC = c:/progra~1/wget/etc/wgetrc
+syswgetrc = C:\Program Files (x86)\Gow/etc/wgetrc
+C:\Program Files (x86)\Gow\bin\wget: missing URL
+Usage: C:\Program Files (x86)\Gow\bin\wget [OPTION]... [URL]...
+
+Try `C:\Program Files (x86)\Gow\bin\wget --help' for more options.
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ whoami
+sai
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ cat rename.txt
+Hi revature
+
+Data analytics
+
+training
+
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ sort rename.txt
+
+
+
+Data analytics
+Hi revature
+training
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ cal
+bash: cal: command not found
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ cal april 2025
+bash: cal: command not found
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  476G  174G  303G  37% /
+D:                    489G  8.6G  480G   2% /d
+E:                    444G   33G  412G   8% /e
+G:                     15G   13G  2.2G  86% /g
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 498542916 181799480 316743436  37% /
+D:                   511999996   8942092 503057904   2% /d
+E:                   464744444  33602052 431142392   8% /e
+G:                    15728640  13477300   2251340  86% /g
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ touch newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ echo -e "This is the new file 1 have created with empty content>newfile.txt
+> echo -e "This is the new file 1 have created with empty content>newfile
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ cat newfile
+This is the new file 1 have created with empty content>newfile.txt
+echo -e This is the new file 1 have created with empty content
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ wc -w newfile.txt
+0 newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ wc -l newfile.txt
+0 newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ wc -m newfile.txt
+0 newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ echo -e^C
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ echo -e "This is the new file">newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ cat newfile.txt
+This is the new file
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ wc -m newfile.txt
+21 newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ wc -l newfile.txt
+1 newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ wc -w newfile.txt
+5 newfile.txt
+
+sai@LAPTOP-SV21F1AN MINGW64 ~/downloads/linuxcommads/test (master)
+$ rm newfile
