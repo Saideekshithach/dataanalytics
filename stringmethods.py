@@ -1,0 +1,35 @@
+name="python"
+print(type(name))
+name1="Revature"
+print(name1[1:4])
+print(name.capitalize())
+print(name.casefold())
+print(name.count('y'))
+print(name.encode())
+print(name.find('y'))
+print(name.index('p'))
+print(name.isalnum())
+print(name.isdecimal())
+print(name.isdigit())
+print(name.islower())
+print(name.isupper())
+print(name.isnumeric())
+print(name.title())
+str="  Revature"
+print(str.lstrip())
+print(str.rstrip())
+print(str.strip())
+print('@'.join(name))
+str1="revature is a company"
+print(str1.split(" "))
+print(str1.isspace())
+str2=" "
+print(str2.isspace())
+print(str2.isnumeric())
+print(str1.center(30))
+print(str1.istitle())
+print(str1.replace('revature','techmahindra'))
+print(str1.endswith('company'))
+a="sai123"
+print(a.isalnum())
+print(str1.swapcase())
